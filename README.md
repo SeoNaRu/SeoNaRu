@@ -42,5 +42,5 @@
 - Github [보러가기](https://github.com/LegendOfTeam2/Front-end)
 ### Airbnb 클론코딩
 - Airbnb를 클론한 프로젝트 입니다.
-- Github [보러가기](https://github.com/hanghae99-w7/front-end)
+- Github [보러가기]([https://github.com/hanghae99-w7/front-end](https://github.com/hanghae-cloneweek5zo/FrontEnd2))
 
