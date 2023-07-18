@@ -13,34 +13,4 @@
 </p>
 
 
-### 💪 Skills
-<p>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
-
-### State Management Library
-![Redux](https://img.shields.io/badge/-Redux-764ABC?style=plastic&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/-Zustand-DA552F?style=plastic&logo=zulip&logoColor=white)
-### ETC
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=plastic&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=plastic&logo=CSS3&logoColor=white)
-![Sass/SCSS](https://img.shields.io/badge/-Sass/SCSS-CC6699?style=plastic&logo=Sass&logoColor=white)
-![styled-components](https://img.shields.io/badge/-styled_components-DB7093?style=plastic&logo=Sass&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=plastic&logo=Javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=plastic&logo=TypeScript&logoColor=white)
-![Prettier](https://img.shields.io/badge/-Prettier-F7B93E?style=plastic&logo=Prettier&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/-Visual_Studio_Code-007ACC?style=plastic&logo=VisualStudioCode&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=plastic&logo=Vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/-Netlify-00C7B7?style=plastic&logo=Netlify&logoColor=white)
-![NPM](https://img.shields.io/badge/-npm-CB3837?style=plastic&logo=npm&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=plastic&logo=Git&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=plastic&logo=GitHub&logoColor=white)
-</p>
-
-## 💡 Experience
-### RhythMe
-- 혼자서 노래 만들기 힘든 가수랑 작곡가를 이어주는 서비스입니다.
-- Github [보러가기](https://github.com/LegendOfTeam2/Front-end)
-### Airbnb 클론코딩
-- Airbnb를 클론한 프로젝트 입니다.
-- Github [보러가기](https://github.com/hanghae-cloneweek5zo/FrontEnd2)
 
