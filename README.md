@@ -1,7 +1,3 @@
-### 🤞 안녕하세요!
-<p>
-  <a href="https://velog.io/@seonaru" target="_blank"><img src="https://img.shields.io/badge/Tech_Blog-DD0B78?style=flat-square&logo=GitHub%20Sponsors&logoColor=white"/></a>
-</p>
 
 <p>
   👋&nbsp; 안녕하세요. 가치 있는 것을 만드는 개발자 서동욱입니다.<br/>
