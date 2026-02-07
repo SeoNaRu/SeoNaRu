@@ -365,23 +365,19 @@
     82.4792% { transform: translate(641px, 53px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
     83.3333% { transform: translate(641px, 65px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
     84.3750% { transform: translate(641px, 77px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
-    84.5625% { transform: translate(641px, 77px) rotate(270deg) scale(0.64) translate(-8px, -6.25px); }
-    85.4167% { transform: translate(629px, 77px) rotate(270deg) scale(0.64) translate(-8px, -6.25px); }
-    85.6042% { transform: translate(629px, 77px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
-    86.4583% { transform: translate(629px, 89px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
-    86.6458% { transform: translate(629px, 89px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    87.5000% { transform: translate(629px, 77px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    87.6875% { transform: translate(629px, 77px) rotate(90deg) scale(0.64) translate(-8px, -6.25px); }
-    88.5417% { transform: translate(641px, 77px) rotate(90deg) scale(0.64) translate(-8px, -6.25px); }
-    88.7292% { transform: translate(641px, 77px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    89.5833% { transform: translate(641px, 65px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    90.6250% { transform: translate(641px, 53px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    91.6667% { transform: translate(641px, 41px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    85.4167% { transform: translate(641px, 89px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
+    85.6042% { transform: translate(641px, 89px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    86.4583% { transform: translate(641px, 77px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    87.5000% { transform: translate(641px, 65px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    88.5417% { transform: translate(641px, 53px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    89.5833% { transform: translate(641px, 41px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    90.6250% { transform: translate(641px, 29px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
+    91.6667% { transform: translate(641px, 29px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
     92.7083% { transform: translate(641px, 29px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
     93.7500% { transform: translate(641px, 29px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    94.7917% { transform: translate(641px, 29px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    95.8333% { transform: translate(641px, 29px) rotate(0deg) scale(0.64) translate(-8px, -6.25px); }
-    96.0208% { transform: translate(641px, 29px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
+    93.9375% { transform: translate(641px, 29px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
+    94.7917% { transform: translate(641px, 41px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
+    95.8333% { transform: translate(641px, 41px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
     96.8750% { transform: translate(641px, 41px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
     97.9167% { transform: translate(641px, 41px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
     98.9583% { transform: translate(641px, 41px) rotate(180deg) scale(0.64) translate(-8px, -6.25px); }
@@ -877,11 +873,12 @@
   <rect x="624" y="72" width="10" height="10" fill="#006d32" rx="2" style="animation: grass-fade-from-2 2s ease-out 29.5s forwards"/>
   <rect x="624" y="84" width="10" height="10" fill="#161b22" rx="2"/>
   <rect x="636" y="12" width="10" height="10" fill="#161b22" rx="2"/>
-  <rect x="636" y="24" width="10" height="10" fill="#006d32" rx="2" style="animation: grass-fade-from-2 2s ease-out 45s forwards"/>
+  <rect x="636" y="24" width="10" height="10" fill="#006d32" rx="2" style="animation: grass-fade-from-2 2s ease-out 44s forwards"/>
   <rect x="636" y="36" width="10" height="10" fill="#161b22" rx="2"/>
   <rect x="636" y="48" width="10" height="10" fill="#26a641" rx="2" style="animation: grass-fade-from-3 2s ease-out 38.5s forwards"/>
   <rect x="636" y="60" width="10" height="10" fill="#26a641" rx="2" style="animation: grass-fade-from-3 2s ease-out 33.5s forwards"/>
   <rect x="636" y="72" width="10" height="10" fill="#39d353" rx="2" style="animation: grass-fade-from-4 2s ease-out 31.5s forwards"/>
+  <rect x="636" y="84" width="10" height="10" fill="#161b22" rx="2"/>
   <rect x="312" y="0" width="10" height="10" fill="#161b22" rx="2"/>
   <rect x="324" y="0" width="10" height="10" fill="#161b22" rx="2"/>
   <rect x="300" y="-12" width="10" height="10" fill="#161b22" rx="2"/>
