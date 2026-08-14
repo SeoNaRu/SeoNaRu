@@ -14,11 +14,10 @@
     --gm-level-4: #216e39;
     --gm-fence: #8c6a43;
     --gm-beam-core: #ffffff;
-    --gm-panel-bg: #f6f8fa;
-    --gm-panel-section: #ffffff;
-    --gm-panel-slot: #f0f3f6;
+    --gm-panel-bg: #ffffff;
+    --gm-panel-section: #f6f8fa;
     --gm-panel-track: #d0d7de;
-    --gm-panel-line: #8c959f;
+    --gm-panel-line: #d0d7de;
     --gm-panel-text: #24292f;
   }
   :root[data-theme="dark"] {
@@ -30,12 +29,11 @@
     --gm-level-4: #39d353;
     --gm-fence: #76563b;
     --gm-beam-core: #f0fff4;
-    --gm-panel-bg: #111820;
-    --gm-panel-section: #161f28;
-    --gm-panel-slot: #1b252f;
-    --gm-panel-track: #080d12;
-    --gm-panel-line: #56636f;
-    --gm-panel-text: #d7e0e8;
+    --gm-panel-bg: #0d1117;
+    --gm-panel-section: #161b22;
+    --gm-panel-track: #21262d;
+    --gm-panel-line: #30363d;
+    --gm-panel-text: #c9d1d9;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme]) {
@@ -47,12 +45,11 @@
       --gm-level-4: #39d353;
       --gm-fence: #76563b;
       --gm-beam-core: #f0fff4;
-      --gm-panel-bg: #111820;
-      --gm-panel-section: #161f28;
-      --gm-panel-slot: #1b252f;
-      --gm-panel-track: #080d12;
-      --gm-panel-line: #56636f;
-      --gm-panel-text: #d7e0e8;
+      --gm-panel-bg: #0d1117;
+      --gm-panel-section: #161b22;
+      --gm-panel-track: #21262d;
+      --gm-panel-line: #30363d;
+      --gm-panel-text: #c9d1d9;
     }
   }
 
@@ -3902,9 +3899,8 @@
   }
 
   .flock-meta,.flock-name,.flock-label,.flock-status,.flock-slot-index{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:var(--gm-panel-text)}
-  .flock-meta{font-size:8.5px;letter-spacing:.7px}.flock-meta-key{opacity:.62;font-weight:600}.flock-meta-value{font-weight:800;letter-spacing:.2px}
-  .flock-name{font-size:10.5px;font-weight:750;letter-spacing:.25px}.flock-label{font-size:6.5px;letter-spacing:.45px;opacity:.68}.flock-status{font-size:7px;font-weight:700;letter-spacing:.55px;fill:var(--gm-level-3)}
-  .flock-slot-index{font-weight:750;letter-spacing:.15px;opacity:.82}
+  .flock-meta{font-size:9px}.flock-meta-key{opacity:.64;font-weight:500}.flock-meta-value{font-weight:650}.flock-name{font-size:10px;font-weight:650}.flock-label{font-size:6.5px;letter-spacing:.35px;opacity:.62}.flock-status{font-size:7px;font-weight:650;letter-spacing:.35px;fill:var(--gm-level-3)}
+  .flock-slot-index{font-weight:650;opacity:.8}
   @keyframes flock-fill-0 { 0% { transform:scaleX(0); } 2.6861% { transform:scaleX(0); } 5.1804% { transform:scaleX(0.050); } 7.0223% { transform:scaleX(0.150); } 8.8642% { transform:scaleX(0.250); } 11.6270% { transform:scaleX(0.450); } 16.2318% { transform:scaleX(0.600); } 18.0737% { transform:scaleX(0.700); } 22.6784% { transform:scaleX(0.800); } 24.5203% { transform:scaleX(0.950); } 30.9670% { transform:scaleX(1.000); } 100% { transform:scaleX(1.000); } }
   @keyframes flock-fill-1 { 0% { transform:scaleX(0); } 5.3722% { transform:scaleX(0); } 7.8665% { transform:scaleX(0.100); } 11.5503% { transform:scaleX(0.250); } 17.0760% { transform:scaleX(0.450); } 19.8388% { transform:scaleX(0.600); } 21.6807% { transform:scaleX(0.750); } 24.4436% { transform:scaleX(0.900); } 30.8903% { transform:scaleX(1.000); } 100% { transform:scaleX(1.000); } }
   @keyframes flock-fill-2 { 0% { transform:scaleX(0); } 8.0583% { transform:scaleX(0); } 10.5526% { transform:scaleX(0.050); } 13.3154% { transform:scaleX(0.200); } 15.1573% { transform:scaleX(0.400); } 16.9992% { transform:scaleX(0.500); } 18.8411% { transform:scaleX(0.600); } 22.5249% { transform:scaleX(0.800); } 24.3668% { transform:scaleX(0.850); } 29.8926% { transform:scaleX(0.950); } 31.7345% { transform:scaleX(1.000); } 100% { transform:scaleX(1.000); } }
@@ -3915,6 +3911,246 @@
   @keyframes flock-fill-7 { 0% { transform:scaleX(0); } 39.1021% { transform:scaleX(0); } 66.5004% { transform:scaleX(0.100); } 71.1051% { transform:scaleX(0.250); } 73.8680% { transform:scaleX(0.300); } 100% { transform:scaleX(0.300); } }
   @keyframes flock-fill-8 { 0% { transform:scaleX(0); } 50.7675% { transform:scaleX(0); } 56.0629% { transform:scaleX(0.200); } 57.9048% { transform:scaleX(0.300); } 63.4305% { transform:scaleX(0.400); } 69.8772% { transform:scaleX(0.450); } 72.6401% { transform:scaleX(0.500); } 100% { transform:scaleX(0.500); } }
   @keyframes flock-fill-9 { 0% { transform:scaleX(0); } 63.4305% { transform:scaleX(0); } 65.9632% { transform:scaleX(0.100); } 71.4889% { transform:scaleX(0.250); } 77.0146% { transform:scaleX(0.300); } 100% { transform:scaleX(0.300); } }
+  @keyframes flock-active-0 {
+    0.0000% { opacity:0; }
+    2.6823% { opacity:0; }
+    2.6861% { opacity:1; }
+    38.1773% { opacity:1; }
+    38.1811% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-0 {
+    0.0000% { opacity:0; }
+    38.1773% { opacity:0; }
+    38.1811% { opacity:1; }
+    38.7913% { opacity:1; }
+    38.7951% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-0 {
+    0.0000% { opacity:0; }
+    38.7913% { opacity:0; }
+    38.7951% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-1 {
+    0.0000% { opacity:0; }
+    5.3684% { opacity:0; }
+    5.3722% { opacity:1; }
+    35.1074% { opacity:1; }
+    35.1113% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-1 {
+    0.0000% { opacity:0; }
+    35.1074% { opacity:0; }
+    35.1113% { opacity:1; }
+    35.7214% { opacity:1; }
+    35.7252% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-1 {
+    0.0000% { opacity:0; }
+    35.7214% { opacity:0; }
+    35.7252% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-2 {
+    0.0000% { opacity:0; }
+    8.0545% { opacity:0; }
+    8.0583% { opacity:1; }
+    31.7306% { opacity:1; }
+    31.7345% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-2 {
+    0.0000% { opacity:0; }
+    31.7306% { opacity:0; }
+    31.7345% { opacity:1; }
+    32.3446% { opacity:1; }
+    32.3484% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-2 {
+    0.0000% { opacity:0; }
+    32.3446% { opacity:0; }
+    32.3484% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-3 {
+    0.0000% { opacity:0; }
+    10.7406% { opacity:0; }
+    10.7444% { opacity:1; }
+    27.0491% { opacity:1; }
+    27.0530% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-3 {
+    0.0000% { opacity:0; }
+    27.0491% { opacity:0; }
+    27.0530% { opacity:1; }
+    27.6631% { opacity:1; }
+    27.6669% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-3 {
+    0.0000% { opacity:0; }
+    27.6631% { opacity:0; }
+    27.6669% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-4 {
+    0.0000% { opacity:0; }
+    27.9701% { opacity:0; }
+    27.9739% { opacity:1; }
+    49.8427% { opacity:1; }
+    49.8465% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-4 {
+    0.0000% { opacity:0; }
+    49.8427% { opacity:0; }
+    49.8465% { opacity:1; }
+    50.4566% { opacity:1; }
+    50.4605% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-4 {
+    0.0000% { opacity:0; }
+    50.4566% { opacity:0; }
+    50.4605% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-5 {
+    0.0000% { opacity:0; }
+    32.6516% { opacity:0; }
+    32.6554% { opacity:1; }
+    72.9816% { opacity:1; }
+    72.9854% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-5 {
+    0.0000% { opacity:0; }
+    72.9816% { opacity:0; }
+    72.9854% { opacity:1; }
+    74.7621% { opacity:1; }
+    74.7659% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-5 {
+    0.0000% { opacity:0; }
+    74.7621% { opacity:0; }
+    74.7659% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-6 {
+    0.0000% { opacity:0; }
+    36.0284% { opacity:0; }
+    36.0322% { opacity:1; }
+    62.5058% { opacity:1; }
+    62.5096% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-6 {
+    0.0000% { opacity:0; }
+    62.5058% { opacity:0; }
+    62.5096% { opacity:1; }
+    63.1197% { opacity:1; }
+    63.1236% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-6 {
+    0.0000% { opacity:0; }
+    63.1197% { opacity:0; }
+    63.1236% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-7 {
+    0.0000% { opacity:0; }
+    39.0982% { opacity:0; }
+    39.1021% { opacity:1; }
+    82.6516% { opacity:1; }
+    82.6554% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-7 {
+    0.0000% { opacity:0; }
+    82.6516% { opacity:0; }
+    82.6554% { opacity:1; }
+    84.4321% { opacity:1; }
+    84.4359% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-7 {
+    0.0000% { opacity:0; }
+    84.4321% { opacity:0; }
+    84.4359% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-8 {
+    0.0000% { opacity:0; }
+    50.7636% { opacity:0; }
+    50.7675% { opacity:1; }
+    76.5119% { opacity:1; }
+    76.5157% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-8 {
+    0.0000% { opacity:0; }
+    76.5119% { opacity:0; }
+    76.5157% { opacity:1; }
+    78.2924% { opacity:1; }
+    78.2962% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-8 {
+    0.0000% { opacity:0; }
+    78.2924% { opacity:0; }
+    78.2962% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-active-9 {
+    0.0000% { opacity:0; }
+    63.4267% { opacity:0; }
+    63.4305% { opacity:1; }
+    79.4282% { opacity:1; }
+    79.4321% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-extracting-9 {
+    0.0000% { opacity:0; }
+    79.4282% { opacity:0; }
+    79.4321% { opacity:1; }
+    81.2087% { opacity:1; }
+    81.2126% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-collected-9 {
+    0.0000% { opacity:0; }
+    81.2087% { opacity:0; }
+    81.2126% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
   @keyframes flock-selected-0 {
     0.0000% { opacity:0; }
     2.6823% { opacity:0; }
@@ -3927,8 +4163,8 @@
     5.3722% { opacity:0; }
     38.1773% { opacity:0; }
     38.1811% { opacity:1; }
-    39.0982% { opacity:1; }
-    39.1021% { opacity:0; }
+    38.7913% { opacity:1; }
+    38.7951% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-0-0 {
@@ -3951,8 +4187,8 @@
     0.0000% { opacity:0; }
     38.1773% { opacity:0; }
     38.1811% { opacity:1; }
-    39.0982% { opacity:1; }
-    39.1021% { opacity:0; }
+    38.7913% { opacity:1; }
+    38.7951% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-1 {
@@ -3967,8 +4203,8 @@
     8.0583% { opacity:0; }
     35.1074% { opacity:0; }
     35.1113% { opacity:1; }
-    36.0284% { opacity:1; }
-    36.0322% { opacity:0; }
+    35.7214% { opacity:1; }
+    35.7252% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-1-0 {
@@ -3991,8 +4227,8 @@
     0.0000% { opacity:0; }
     35.1074% { opacity:0; }
     35.1113% { opacity:1; }
-    36.0284% { opacity:1; }
-    36.0322% { opacity:0; }
+    35.7214% { opacity:1; }
+    35.7252% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-2 {
@@ -4005,10 +4241,14 @@
     8.7490% { opacity:1; }
     10.7406% { opacity:1; }
     10.7444% { opacity:0; }
+    27.6631% { opacity:0; }
+    27.6669% { opacity:1; }
+    27.9701% { opacity:1; }
+    27.9739% { opacity:0; }
     31.7306% { opacity:0; }
     31.7345% { opacity:1; }
-    32.6516% { opacity:1; }
-    32.6554% { opacity:0; }
+    32.3446% { opacity:1; }
+    32.3484% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-2-0 {
@@ -4029,10 +4269,18 @@
   }
   @keyframes flock-status-2-2 {
     0.0000% { opacity:0; }
+    27.6631% { opacity:0; }
+    27.6669% { opacity:1; }
+    27.9701% { opacity:1; }
+    27.9739% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-2-3 {
+    0.0000% { opacity:0; }
     31.7306% { opacity:0; }
     31.7345% { opacity:1; }
-    32.6516% { opacity:1; }
-    32.6554% { opacity:0; }
+    32.3446% { opacity:1; }
+    32.3484% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-3 {
@@ -4047,8 +4295,8 @@
     27.0491% { opacity:1; }
     27.0530% { opacity:0; }
     27.0530% { opacity:1; }
-    27.9701% { opacity:1; }
-    27.9739% { opacity:0; }
+    27.6631% { opacity:1; }
+    27.6669% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-3-0 {
@@ -4071,8 +4319,8 @@
     0.0000% { opacity:0; }
     27.0491% { opacity:0; }
     27.0530% { opacity:1; }
-    27.9701% { opacity:1; }
-    27.9739% { opacity:0; }
+    27.6631% { opacity:1; }
+    27.6669% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-4 {
@@ -4085,10 +4333,14 @@
     28.6646% { opacity:1; }
     31.7306% { opacity:1; }
     31.7345% { opacity:0; }
+    32.3446% { opacity:0; }
+    32.3484% { opacity:1; }
+    32.6516% { opacity:1; }
+    32.6554% { opacity:0; }
     49.8427% { opacity:0; }
     49.8465% { opacity:1; }
-    50.7636% { opacity:1; }
-    50.7675% { opacity:0; }
+    50.4566% { opacity:1; }
+    50.4605% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-4-0 {
@@ -4109,10 +4361,18 @@
   }
   @keyframes flock-status-4-2 {
     0.0000% { opacity:0; }
+    32.3446% { opacity:0; }
+    32.3484% { opacity:1; }
+    32.6516% { opacity:1; }
+    32.6554% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-4-3 {
+    0.0000% { opacity:0; }
     49.8427% { opacity:0; }
     49.8465% { opacity:1; }
-    50.7636% { opacity:1; }
-    50.7675% { opacity:0; }
+    50.4566% { opacity:1; }
+    50.4605% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-5 {
@@ -4125,10 +4385,14 @@
     33.3461% { opacity:1; }
     35.1074% { opacity:1; }
     35.1113% { opacity:0; }
+    35.7214% { opacity:0; }
+    35.7252% { opacity:1; }
+    36.0284% { opacity:1; }
+    36.0322% { opacity:0; }
     72.9816% { opacity:0; }
     72.9854% { opacity:1; }
-    76.5119% { opacity:1; }
-    76.5157% { opacity:0; }
+    74.7621% { opacity:1; }
+    74.7659% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-5-0 {
@@ -4149,10 +4413,18 @@
   }
   @keyframes flock-status-5-2 {
     0.0000% { opacity:0; }
+    35.7214% { opacity:0; }
+    35.7252% { opacity:1; }
+    36.0284% { opacity:1; }
+    36.0322% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-5-3 {
+    0.0000% { opacity:0; }
     72.9816% { opacity:0; }
     72.9854% { opacity:1; }
-    76.5119% { opacity:1; }
-    76.5157% { opacity:0; }
+    74.7621% { opacity:1; }
+    74.7659% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-6 {
@@ -4165,10 +4437,14 @@
     36.7229% { opacity:1; }
     38.1773% { opacity:1; }
     38.1811% { opacity:0; }
+    38.7913% { opacity:0; }
+    38.7951% { opacity:1; }
+    39.0982% { opacity:1; }
+    39.1021% { opacity:0; }
     62.5058% { opacity:0; }
     62.5096% { opacity:1; }
-    63.4267% { opacity:1; }
-    63.4305% { opacity:0; }
+    63.1197% { opacity:1; }
+    63.1236% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-6-0 {
@@ -4189,10 +4465,18 @@
   }
   @keyframes flock-status-6-2 {
     0.0000% { opacity:0; }
+    38.7913% { opacity:0; }
+    38.7951% { opacity:1; }
+    39.0982% { opacity:1; }
+    39.1021% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-6-3 {
+    0.0000% { opacity:0; }
     62.5058% { opacity:0; }
     62.5096% { opacity:1; }
-    63.4267% { opacity:1; }
-    63.4305% { opacity:0; }
+    63.1197% { opacity:1; }
+    63.1236% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-7 {
@@ -4205,10 +4489,18 @@
     39.7928% { opacity:1; }
     49.8427% { opacity:1; }
     49.8465% { opacity:0; }
+    50.4566% { opacity:0; }
+    50.4605% { opacity:1; }
+    50.7636% { opacity:1; }
+    50.7675% { opacity:0; }
+    81.2087% { opacity:0; }
+    81.2126% { opacity:1; }
     82.6516% { opacity:0; }
+    82.6516% { opacity:1; }
+    82.6554% { opacity:0; }
     82.6554% { opacity:1; }
-    99.9962% { opacity:1; }
-    100.0000% { opacity:0; }
+    84.4321% { opacity:1; }
+    84.4359% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-7-0 {
@@ -4229,10 +4521,26 @@
   }
   @keyframes flock-status-7-2 {
     0.0000% { opacity:0; }
+    50.4566% { opacity:0; }
+    50.4605% { opacity:1; }
+    50.7636% { opacity:1; }
+    50.7675% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-7-3 {
+    0.0000% { opacity:0; }
+    81.2087% { opacity:0; }
+    81.2126% { opacity:1; }
+    82.6516% { opacity:1; }
+    82.6554% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-7-4 {
+    0.0000% { opacity:0; }
     82.6516% { opacity:0; }
     82.6554% { opacity:1; }
-    99.9962% { opacity:1; }
-    100.0000% { opacity:0; }
+    84.4321% { opacity:1; }
+    84.4359% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-8 {
@@ -4245,10 +4553,14 @@
     51.4582% { opacity:1; }
     62.5058% { opacity:1; }
     62.5096% { opacity:0; }
+    63.1197% { opacity:0; }
+    63.1236% { opacity:1; }
+    63.4267% { opacity:1; }
+    63.4305% { opacity:0; }
     76.5119% { opacity:0; }
     76.5157% { opacity:1; }
-    79.4282% { opacity:1; }
-    79.4321% { opacity:0; }
+    78.2924% { opacity:1; }
+    78.2962% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-8-0 {
@@ -4269,10 +4581,18 @@
   }
   @keyframes flock-status-8-2 {
     0.0000% { opacity:0; }
+    63.1197% { opacity:0; }
+    63.1236% { opacity:1; }
+    63.4267% { opacity:1; }
+    63.4305% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-8-3 {
+    0.0000% { opacity:0; }
     76.5119% { opacity:0; }
     76.5157% { opacity:1; }
-    79.4282% { opacity:1; }
-    79.4321% { opacity:0; }
+    78.2924% { opacity:1; }
+    78.2962% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-selected-9 {
@@ -4285,10 +4605,18 @@
     64.1213% { opacity:1; }
     72.9816% { opacity:1; }
     72.9854% { opacity:0; }
+    74.7621% { opacity:0; }
+    74.7659% { opacity:1; }
+    76.5119% { opacity:1; }
+    76.5157% { opacity:0; }
+    78.2924% { opacity:0; }
+    78.2962% { opacity:1; }
     79.4282% { opacity:0; }
+    79.4282% { opacity:1; }
+    79.4321% { opacity:0; }
     79.4321% { opacity:1; }
-    82.6516% { opacity:1; }
-    82.6554% { opacity:0; }
+    81.2087% { opacity:1; }
+    81.2126% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-status-9-0 {
@@ -4309,10 +4637,42 @@
   }
   @keyframes flock-status-9-2 {
     0.0000% { opacity:0; }
+    74.7621% { opacity:0; }
+    74.7659% { opacity:1; }
+    76.5119% { opacity:1; }
+    76.5157% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-9-3 {
+    0.0000% { opacity:0; }
+    78.2924% { opacity:0; }
+    78.2962% { opacity:1; }
+    79.4282% { opacity:1; }
+    79.4321% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-status-9-4 {
+    0.0000% { opacity:0; }
     79.4282% { opacity:0; }
     79.4321% { opacity:1; }
-    82.6516% { opacity:1; }
-    82.6554% { opacity:0; }
+    81.2087% { opacity:1; }
+    81.2126% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-inbound {
+    0.0000% { opacity:0; }
+    0.0000% { opacity:0; }
+    0.0000% { opacity:1; }
+    2.6823% { opacity:1; }
+    2.6861% { opacity:0; }
+    100.0000% { opacity:0; }
+  }
+  @keyframes flock-complete {
+    0.0000% { opacity:0; }
+    84.4321% { opacity:0; }
+    84.4359% { opacity:1; }
+    99.9962% { opacity:1; }
+    100.0000% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-field-0 {
@@ -4321,8 +4681,8 @@
     0.0000% { opacity:1; }
     3.3730% { opacity:1; }
     3.3768% { opacity:0; }
-    82.6516% { opacity:0; }
-    82.6554% { opacity:1; }
+    84.4321% { opacity:0; }
+    84.4359% { opacity:1; }
     99.9962% { opacity:1; }
     100.0000% { opacity:0; }
     100.0000% { opacity:0; }
@@ -4333,10 +4693,10 @@
     3.3768% { opacity:1; }
     6.0591% { opacity:1; }
     6.0629% { opacity:0; }
-    79.4282% { opacity:0; }
-    79.4321% { opacity:1; }
-    82.6516% { opacity:1; }
-    82.6554% { opacity:0; }
+    81.2087% { opacity:0; }
+    81.2126% { opacity:1; }
+    84.4321% { opacity:1; }
+    84.4359% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-field-2 {
@@ -4345,10 +4705,10 @@
     6.0629% { opacity:1; }
     8.7452% { opacity:1; }
     8.7490% { opacity:0; }
-    76.5119% { opacity:0; }
-    76.5157% { opacity:1; }
-    79.4282% { opacity:1; }
-    79.4321% { opacity:0; }
+    78.2924% { opacity:0; }
+    78.2962% { opacity:1; }
+    81.2087% { opacity:1; }
+    81.2126% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-field-3 {
@@ -4357,66 +4717,66 @@
     8.7490% { opacity:1; }
     11.4313% { opacity:1; }
     11.4351% { opacity:0; }
-    27.0491% { opacity:0; }
-    27.0530% { opacity:1; }
+    27.6631% { opacity:0; }
+    27.6669% { opacity:1; }
     28.6608% { opacity:1; }
     28.6646% { opacity:0; }
-    31.7306% { opacity:0; }
-    31.7345% { opacity:1; }
+    32.3446% { opacity:0; }
+    32.3484% { opacity:1; }
     33.3423% { opacity:1; }
     33.3461% { opacity:0; }
-    35.1074% { opacity:0; }
-    35.1113% { opacity:1; }
+    35.7214% { opacity:0; }
+    35.7252% { opacity:1; }
     36.7191% { opacity:1; }
     36.7229% { opacity:0; }
-    38.1773% { opacity:0; }
-    38.1811% { opacity:1; }
+    38.7913% { opacity:0; }
+    38.7951% { opacity:1; }
     39.7889% { opacity:1; }
     39.7928% { opacity:0; }
-    49.8427% { opacity:0; }
-    49.8465% { opacity:1; }
+    50.4566% { opacity:0; }
+    50.4605% { opacity:1; }
     51.4543% { opacity:1; }
     51.4582% { opacity:0; }
-    62.5058% { opacity:0; }
-    62.5096% { opacity:1; }
+    63.1197% { opacity:0; }
+    63.1236% { opacity:1; }
     64.1174% { opacity:1; }
     64.1213% { opacity:0; }
-    72.9816% { opacity:0; }
-    72.9854% { opacity:1; }
-    76.5119% { opacity:1; }
-    76.5157% { opacity:0; }
+    74.7621% { opacity:0; }
+    74.7659% { opacity:1; }
+    78.2924% { opacity:1; }
+    78.2962% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-field-4 {
     0.0000% { opacity:0; }
     11.4313% { opacity:0; }
     11.4351% { opacity:1; }
-    27.0491% { opacity:1; }
-    27.0530% { opacity:0; }
+    27.6631% { opacity:1; }
+    27.6669% { opacity:0; }
     28.6608% { opacity:0; }
     28.6646% { opacity:1; }
-    31.7306% { opacity:1; }
-    31.7345% { opacity:0; }
+    32.3446% { opacity:1; }
+    32.3484% { opacity:0; }
     33.3423% { opacity:0; }
     33.3461% { opacity:1; }
-    35.1074% { opacity:1; }
-    35.1113% { opacity:0; }
+    35.7214% { opacity:1; }
+    35.7252% { opacity:0; }
     36.7191% { opacity:0; }
     36.7229% { opacity:1; }
-    38.1773% { opacity:1; }
-    38.1811% { opacity:0; }
+    38.7913% { opacity:1; }
+    38.7951% { opacity:0; }
     39.7889% { opacity:0; }
     39.7928% { opacity:1; }
-    49.8427% { opacity:1; }
-    49.8465% { opacity:0; }
+    50.4566% { opacity:1; }
+    50.4605% { opacity:0; }
     51.4543% { opacity:0; }
     51.4582% { opacity:1; }
-    62.5058% { opacity:1; }
-    62.5096% { opacity:0; }
+    63.1197% { opacity:1; }
+    63.1236% { opacity:0; }
     64.1174% { opacity:0; }
     64.1213% { opacity:1; }
-    72.9816% { opacity:1; }
-    72.9854% { opacity:0; }
+    74.7621% { opacity:1; }
+    74.7659% { opacity:0; }
     100.0000% { opacity:0; }
   }
   @keyframes flock-grass-0 {
@@ -5211,155 +5571,173 @@
         stroke="#c8a96b" stroke-width="1.4"
         stroke-linecap="round" fill="none"/>
 </g></symbol></defs>
-    <path d="M6 112H654L660 118V184L654 190H6L0 184V118Z" fill="var(--gm-panel-bg)" stroke="var(--gm-panel-line)" stroke-width="1"/>
-    <rect class="flock-selected-section" x="8" y="138" width="174" height="47" rx="3" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-    <rect class="flock-roster-section" x="188" y="138" width="464" height="47" rx="3" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-    <path d="M9 134H651M185 118V184" stroke="var(--gm-panel-line)" stroke-width=".9" opacity=".82"/>
-    <text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-0 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">FIELD</tspan><tspan dx="5" class="flock-meta-value">0/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-1 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">FIELD</tspan><tspan dx="5" class="flock-meta-value">1/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-2 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">FIELD</tspan><tspan dx="5" class="flock-meta-value">2/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-3 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">FIELD</tspan><tspan dx="5" class="flock-meta-value">3/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-4 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">FIELD</tspan><tspan dx="5" class="flock-meta-value">4/4</tspan></text>
-    <text x="330" y="127" text-anchor="middle" class="flock-meta"><tspan class="flock-meta-key">FLOCK</tspan><tspan dx="5" class="flock-meta-value">10</tspan></text>
-    <text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-0 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">0%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-10 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">10%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-20 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">20%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-30 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">30%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-40 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">40%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-50 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">50%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-60 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">60%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-70 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">70%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-80 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">80%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-90 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">90%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-100 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">GRASS</tspan><tspan dx="5" class="flock-meta-value">100%</tspan></text>
-    <text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-0-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-0-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-0-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-0 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 01</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-0 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-1-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-1-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-1-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-1 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 02</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-1 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-2-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-2-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-2-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-2 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 03</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-2 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-3-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-3-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-3-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-3 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 04</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-3 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-4-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-4-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-4-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-4 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 05</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-4 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-5-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-5-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-5-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-5 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 06</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-5 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-6-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-6-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-6-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-6 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 07</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-6 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-7-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-7-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-7-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-7 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 08</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-7 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-8-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-8-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-8-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-8 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 09</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-8 26.060000000000002s linear 0s 1 both"/>
-    </g><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-9-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-9-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="70" y="178" class="flock-status" style="opacity:0;animation:flock-status-9-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-9 26.060000000000002s linear 0s 1 both">
-      <path d="M14 139H56L61 144V180H14L9 175V144Z" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".8"/>
-      <path d="M13 143V176" stroke="var(--gm-level-3)" stroke-width="2" opacity=".72"/>
-      <use href="#flock-sheep-icon" x="21" y="150" width="28" height="23"/>
-      <text x="70" y="151" class="flock-name">SHEEP 10</text>
-      <text x="70" y="165" class="flock-label">FULLNESS</text>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-panel-track)"/>
-      <rect x="111" y="158" width="55" height="8" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-9 26.060000000000002s linear 0s 1 both"/>
-    </g>
-    <g class="flock-slot flock-slot-0">
-      <rect x="341.00" y="139.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="354.50" y="151.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">01</text>
-      <rect x="343.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="343.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-0 26.060000000000002s linear 0s 1 both"/>
-      <rect x="341.00" y="139.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-0 26.060000000000002s linear 0s 1 both"/>
+    <rect class="flock-panel-surface" x=".5" y="112.5" width="659" height="77" rx="6" fill="var(--gm-panel-bg)" stroke="var(--gm-panel-line)"/>
+    <path class="flock-panel-divider" d="M9 135H651M188 141V183" stroke="var(--gm-panel-line)" stroke-width=".7"/>
+    <text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-0 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Field</tspan><tspan dx="5" class="flock-meta-value">0/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-1 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Field</tspan><tspan dx="5" class="flock-meta-value">1/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-2 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Field</tspan><tspan dx="5" class="flock-meta-value">2/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-3 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Field</tspan><tspan dx="5" class="flock-meta-value">3/4</tspan></text><text x="14" y="127" class="flock-meta" style="opacity:0;animation:flock-field-4 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Field</tspan><tspan dx="5" class="flock-meta-value">4/4</tspan></text>
+    <text x="330" y="127" text-anchor="middle" class="flock-meta"><tspan class="flock-meta-key">Flock</tspan><tspan dx="5" class="flock-meta-value">10</tspan></text>
+    <text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-0 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">0%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-10 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">10%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-20 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">20%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-30 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">30%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-40 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">40%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-50 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">50%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-60 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">60%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-70 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">70%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-80 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">80%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-90 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">90%</tspan></text><text x="646" y="127" text-anchor="end" class="flock-meta" style="opacity:0;animation:flock-grass-100 26.060000000000002s linear 0s 1 both"><tspan class="flock-meta-key">Grass</tspan><tspan dx="5" class="flock-meta-value">100%</tspan></text>
+    <g class="flock-selected-region"><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-0-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-0-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-0-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-0 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 01</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-0 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-1-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-1-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-1-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-1 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 02</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-1 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-2-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-2-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-2-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-2-3 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-2 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 03</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-2 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-3-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-3-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-3-2 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-3 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 04</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-3 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-4-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-4-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-4-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-4-3 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-4 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 05</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-4 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-5-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-5-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-5-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-5-3 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-5 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 06</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-5 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-6-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-6-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-6-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-6-3 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-6 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 07</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-6 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-7-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-7-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-7-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-7-3 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-7-4 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-7 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 08</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-7 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-8-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-8-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-8-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-8-3 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-8 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 09</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-8 26.060000000000002s linear 0s 1 both"/>
+    </g><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-9-0 26.060000000000002s linear 0s 1 both">DEPLOYING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-9-1 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-9-2 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-9-3 26.060000000000002s linear 0s 1 both">GRAZING</text><text x="50" y="163" class="flock-status" style="opacity:0;animation:flock-status-9-4 26.060000000000002s linear 0s 1 both">EXTRACTING</text><g style="opacity:0;animation:flock-selected-9 26.060000000000002s linear 0s 1 both">
+      <use href="#flock-sheep-icon" x="13" y="150" width="28" height="23"/>
+      <text x="50" y="151" class="flock-name">SHEEP 10</text>
+      <text x="50" y="178" class="flock-label">FULLNESS</text>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-panel-track)"/>
+      <rect x="96" y="171" width="80" height="6" rx="2" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-9 26.060000000000002s linear 0s 1 both"/>
+    </g><g style="opacity:0;animation:flock-inbound 26.060000000000002s linear 0s 1 both"><text x="14" y="156" class="flock-name">FLOCK INBOUND</text><text x="14" y="170" class="flock-status">AWAITING DEPLOYMENT</text></g><g style="opacity:0;animation:flock-complete 26.060000000000002s linear 0s 1 both"><rect x="14" y="150" width="10" height="10" rx="2" fill="var(--gm-level-4)"/><text x="32" y="158" class="flock-name">PASTURE CLEAR</text><text x="32" y="172" class="flock-status">ALL SHEEP COLLECTED</text></g></g>
+    <g class="flock-roster-region"><g class="flock-slot flock-slot-0">
+      <rect x="203.80" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="203.80" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-0 26.060000000000002s linear 0s 1 both"/>
+      <text x="209.80" y="150.50" text-anchor="start" class="flock-slot-index" font-size="8.00">01</text>
+      <path d="M263.80 148.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-0 26.060000000000002s linear 0s 1 both"/>
+      <rect x="206.80" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="206.80" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-0 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-0 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-0 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-0 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-1">
-      <rect x="374.00" y="139.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="387.50" y="151.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">02</text>
-      <rect x="376.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="376.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-1 26.060000000000002s linear 0s 1 both"/>
-      <rect x="374.00" y="139.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-1 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="295.40" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-1 26.060000000000002s linear 0s 1 both"/>
+      <text x="301.40" y="150.50" text-anchor="start" class="flock-slot-index" font-size="8.00">02</text>
+      <path d="M355.40 148.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-1 26.060000000000002s linear 0s 1 both"/>
+      <rect x="298.40" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="298.40" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-1 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-1 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-1 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-1 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-2">
-      <rect x="407.00" y="139.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="420.50" y="151.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">03</text>
-      <rect x="409.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="409.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-2 26.060000000000002s linear 0s 1 both"/>
-      <rect x="407.00" y="139.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-2 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="387.00" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-2 26.060000000000002s linear 0s 1 both"/>
+      <text x="393.00" y="150.50" text-anchor="start" class="flock-slot-index" font-size="8.00">03</text>
+      <path d="M447.00 148.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-2 26.060000000000002s linear 0s 1 both"/>
+      <rect x="390.00" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="390.00" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-2 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-2 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-2 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-2 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-3">
-      <rect x="440.00" y="139.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="453.50" y="151.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">04</text>
-      <rect x="442.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="442.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-3 26.060000000000002s linear 0s 1 both"/>
-      <rect x="440.00" y="139.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-3 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="478.60" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-3 26.060000000000002s linear 0s 1 both"/>
+      <text x="484.60" y="150.50" text-anchor="start" class="flock-slot-index" font-size="8.00">04</text>
+      <path d="M538.60 148.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-3 26.060000000000002s linear 0s 1 both"/>
+      <rect x="481.60" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="481.60" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-3 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-3 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-3 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-3 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-4">
-      <rect x="473.00" y="139.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="486.50" y="151.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">05</text>
-      <rect x="475.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="475.00" y="156.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-4 26.060000000000002s linear 0s 1 both"/>
-      <rect x="473.00" y="139.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-4 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="570.20" y="140.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-4 26.060000000000002s linear 0s 1 both"/>
+      <text x="576.20" y="150.50" text-anchor="start" class="flock-slot-index" font-size="8.00">05</text>
+      <path d="M630.20 148.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-4 26.060000000000002s linear 0s 1 both"/>
+      <rect x="573.20" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="573.20" y="154.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-4 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-4 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-4 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="140.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-4 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-5">
-      <rect x="341.00" y="164.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="354.50" y="176.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">06</text>
-      <rect x="343.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="343.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-5 26.060000000000002s linear 0s 1 both"/>
-      <rect x="341.00" y="164.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-5 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="203.80" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-5 26.060000000000002s linear 0s 1 both"/>
+      <text x="209.80" y="173.50" text-anchor="start" class="flock-slot-index" font-size="8.00">06</text>
+      <path d="M263.80 171.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-5 26.060000000000002s linear 0s 1 both"/>
+      <rect x="206.80" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="206.80" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-5 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-5 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-5 26.060000000000002s linear 0s 1 both"/>
+      <rect x="203.80" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-5 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-6">
-      <rect x="374.00" y="164.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="387.50" y="176.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">07</text>
-      <rect x="376.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="376.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-6 26.060000000000002s linear 0s 1 both"/>
-      <rect x="374.00" y="164.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-6 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="295.40" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-6 26.060000000000002s linear 0s 1 both"/>
+      <text x="301.40" y="173.50" text-anchor="start" class="flock-slot-index" font-size="8.00">07</text>
+      <path d="M355.40 171.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-6 26.060000000000002s linear 0s 1 both"/>
+      <rect x="298.40" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="298.40" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-6 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-6 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-6 26.060000000000002s linear 0s 1 both"/>
+      <rect x="295.40" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-6 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-7">
-      <rect x="407.00" y="164.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="420.50" y="176.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">08</text>
-      <rect x="409.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="409.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-7 26.060000000000002s linear 0s 1 both"/>
-      <rect x="407.00" y="164.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-7 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="387.00" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-7 26.060000000000002s linear 0s 1 both"/>
+      <text x="393.00" y="173.50" text-anchor="start" class="flock-slot-index" font-size="8.00">08</text>
+      <path d="M447.00 171.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-7 26.060000000000002s linear 0s 1 both"/>
+      <rect x="390.00" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="390.00" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-7 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-7 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-7 26.060000000000002s linear 0s 1 both"/>
+      <rect x="387.00" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-7 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-8">
-      <rect x="440.00" y="164.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="453.50" y="176.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">09</text>
-      <rect x="442.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="442.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-8 26.060000000000002s linear 0s 1 both"/>
-      <rect x="440.00" y="164.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-8 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="478.60" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-8 26.060000000000002s linear 0s 1 both"/>
+      <text x="484.60" y="173.50" text-anchor="start" class="flock-slot-index" font-size="8.00">09</text>
+      <path d="M538.60 171.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-8 26.060000000000002s linear 0s 1 both"/>
+      <rect x="481.60" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="481.60" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-8 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-8 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-8 26.060000000000002s linear 0s 1 both"/>
+      <rect x="478.60" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-8 26.060000000000002s linear 0s 1 both"/>
     </g><g class="flock-slot flock-slot-9">
-      <rect x="473.00" y="164.00" width="27.00" height="21" rx="2.5" fill="var(--gm-panel-slot)" stroke="var(--gm-panel-line)" stroke-width=".45" opacity=".92"/>
-      <text x="486.50" y="176.00" text-anchor="middle" class="flock-slot-index" font-size="8.00">10</text>
-      <rect x="475.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-panel-track)"/>
-      <rect x="475.00" y="181.00" width="23.00" height="2.8" rx="1.4" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-9 26.060000000000002s linear 0s 1 both"/>
-      <rect x="473.00" y="164.00" width="27.00" height="21" rx="2.5" fill="none" stroke="var(--gm-level-3)" stroke-width="1.2" style="opacity:0;animation:flock-selected-9 26.060000000000002s linear 0s 1 both"/>
-    </g>
+      <rect x="570.20" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-panel-section)" stroke="var(--gm-panel-line)" stroke-width=".5"/>
+      <rect x="570.20" y="163.00" width="72.00" height="18" rx="2" fill="var(--gm-level-1)" style="opacity:0;animation:flock-collected-9 26.060000000000002s linear 0s 1 both"/>
+      <text x="576.20" y="173.50" text-anchor="start" class="flock-slot-index" font-size="8.00">10</text>
+      <path d="M630.20 171.50l2.2 2.2 4-4.4" fill="none" stroke="var(--gm-level-4)" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" style="opacity:0;animation:flock-collected-9 26.060000000000002s linear 0s 1 both"/>
+      <rect x="573.20" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-panel-track)"/>
+      <rect x="573.20" y="177.00" width="66.00" height="2.5" rx="1.25" fill="var(--gm-level-4)" style="transform-box:fill-box;transform-origin:left;animation:flock-fill-9 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-2)" stroke-width=".9" style="opacity:0;animation:flock-active-9 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.5" style="opacity:0;animation:flock-extracting-9 26.060000000000002s linear 0s 1 both"/>
+      <rect x="570.20" y="163.00" width="72.00" height="18" rx="2" fill="none" stroke="var(--gm-level-4)" stroke-width="1.2" style="opacity:0;animation:flock-selected-9 26.060000000000002s linear 0s 1 both"/>
+    </g></g>
   </g>
 
 </svg>
