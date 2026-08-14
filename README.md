@@ -1,4 +1,5 @@
-![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/main/assets/live.svg)
+![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/main/assets/live-light.svg#gh-light-mode-only)
+![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/main/assets/live-dark.svg#gh-dark-mode-only)
 
 > Curiosity comes first.  
 > Everything else follows.
