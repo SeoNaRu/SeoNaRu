@@ -4,4 +4,8 @@
 > Curiosity comes first.  
 > Everything else follows.
 
-👉 **[Click to see the live SVG simulation](https://github.com/SeoNaRu/green-movement)**
+### 🌱 Green Movement
+
+GitHub 잔디를 양 떼가 먹고, 포만한 양은 UFO가 회수한 뒤 새 양과 교대하는 작은 픽셀 목장입니다.
+
+👉 **[프로젝트와 설치 방법 보기](https://github.com/SeoNaRu/green-movement)**
