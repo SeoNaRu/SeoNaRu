@@ -4,5 +4,4 @@
 > Curiosity comes first.  
 > Everything else follows.
 
-### 🌱 Green Movement
-👉 **[Green Movement-Repo](https://github.com/SeoNaRu/green-movement)**
+👉 **[🌱 Green Movement](https://github.com/SeoNaRu/green-movement)**
