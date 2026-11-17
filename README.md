@@ -1,5 +1,5 @@
-![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/3ce802142c75cbaa50ec9a28b3e85feb87ab49c6/assets/live-light.svg#gh-light-mode-only)
-![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/3ce802142c75cbaa50ec9a28b3e85feb87ab49c6/assets/live-dark.svg#gh-dark-mode-only)
+![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/09d9fb1f7f178e6893dd54ecf37cc12432e5fcf0/assets/live-light.svg#gh-light-mode-only)
+![grass](https://raw.githubusercontent.com/SeoNaRu/SeoNaRu/09d9fb1f7f178e6893dd54ecf37cc12432e5fcf0/assets/live-dark.svg#gh-dark-mode-only)
 
 > Curiosity comes first.  
 > Everything else follows.
